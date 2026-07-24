@@ -27,6 +27,8 @@ Data modeling = planning entities, tables, columns, keys, and relationships befo
 7. [Relationships](07-relationships/README.md)
 8. [Normalization: 1NF and 2NF](08-normalization-1nf-2nf/README.md)
 9. [Normalization: 3NF](09-normalization-3nf/README.md)
+10. [Indexes](10-indexes/README.md)
+11. [ACID Properties](11-acid-properties/README.md)
 
 ## Why Data Modeling Matters
 
@@ -75,6 +77,8 @@ Candidate Key -> possible unique identifier for a row
 Constraint  -> rule that protects data integrity
 Relationship -> connection pattern between tables
 Normalization -> organizing tables to reduce redundancy
+Index       -> lookup structure that improves search performance
+ACID        -> transaction rules for reliable database changes
 ```
 
 ## Example Model
