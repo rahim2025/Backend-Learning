@@ -89,6 +89,31 @@ Notes:
 - [Foreign Keys](data%20modeling/04-foreign-keys/README.md)
 - [Candidate Keys](data%20modeling/05-candidate-keys/README.md)
 
+### TypeScript
+
+TypeScript adds a static type system on top of JavaScript, which helps catch mistakes in backend code before it runs and makes function signatures, DTOs, and API shapes self-documenting.
+
+Notes:
+
+- [TypeScript](typescript/)
+- [Type vs Interface](typescript/01-type-vs-interface/README.md)
+- [Union Types](typescript/02-union-types/README.md)
+- [Literal Types](typescript/03-literal-types/README.md)
+- [Optional Properties](typescript/04-optional-properties/README.md)
+- [readonly](typescript/05-readonly/README.md)
+- [Function Typing](typescript/06-function-typing/README.md)
+- [Type Narrowing](typescript/07-type-narrowing/README.md)
+- [Type Guards](typescript/08-type-guards/README.md)
+- [keyof](typescript/09-keyof/README.md)
+- [Generics](typescript/10-generics/README.md)
+- [Generic Constraints](typescript/11-generic-constraints/README.md)
+- [Utility Types](typescript/12-utility-types/README.md)
+- [Discriminated Unions](typescript/13-discriminated-unions/README.md)
+- [unknown vs any](typescript/14-unknown-vs-any/README.md)
+- [Type Assertions](typescript/15-type-assertions/README.md)
+- [TypeScript Interview Questions](typescript/16-interview-questions/interview-questions.md)
+- [TypeScript Cheat Sheet](typescript/17-cheat-sheet/README.md)
+
 ## Why I Am Building This
 
 I am using this repository to prepare for backend software engineering interviews and to improve my practical JavaScript backend skills.
