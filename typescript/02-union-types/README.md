@@ -129,3 +129,43 @@ function process(value: string | number) {} // precise and safe
 ## Interview Answer
 
 A union type describes a value that can be one of several specified types, written with the `|` operator, for example `string | number`. When working with a union, TypeScript only allows access to members shared by every type in the union until the code narrows the type down (with `typeof`, `in`, equality checks, or a type guard). Unions are commonly used for function parameters that accept multiple types, for modeling a fixed set of string values, and as the basis for discriminated unions that model different variants of a response or event.
+
+## exercise answer 
+
+```ts 
+
+type ID = string | number ;
+
+function checkID(id:ID):void {
+  console.log(id)
+}
+
+checkID(20)
+
+type Circle = {
+  kind:"circle";
+  radius: number
+}
+type Squre = {
+  kind:"squre",
+  side : number
+}
+
+type Shape = Circle | Squre ;
+
+function describe(shape:Shape):void {
+  if(shape.kind === "circle"){
+    console.log("This is A circle");
+  }
+  else if (shape.kind === "squre" ){
+    console.log("This is a squre");
+  }
+} 
+
+const squre1:Squre = {
+  kind:"squre",
+  side : 20
+}
+describe(squre1)
+
+```

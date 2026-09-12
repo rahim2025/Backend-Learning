@@ -140,8 +140,9 @@ interface ID = string | number; // Invalid syntax
 
 `type` and `interface` can both describe object shapes and are interchangeable in many everyday cases, but they have different capabilities. `interface` supports declaration merging (multiple declarations with the same name combine) and is extended with `extends`, which makes it a common choice for public object and class shapes, especially in libraries. `type` can alias any type, including unions, tuples, primitives, and function types, and is combined using intersections (`&`) instead of merging. In practice, teams often default to `interface` for object shapes that may be extended, and `type` for unions, tuples, or more complex type expressions.
 
-//exercise solution
-
+## exercise solution
+ 
+```ts
 interface Book {
   title : string;
   author : string;
@@ -175,3 +176,4 @@ const book1:PaperBook = {
   
 }
  console.log(book1)
+```
