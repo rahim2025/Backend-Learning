@@ -1,17 +1,16 @@
-
-
-
 import express from 'express';
 import { Express } from 'express';
+import { env } from './config/env';
+import productRouter from "./routes/product.routes"
+
 const app:Express = express();
 
-const PORT:number = 3000;
 
-app.get("/ping",(req,res) =>{
-    console.log("Pong")
-})
+app.use(express.json())
+app.use("/api/products",productRouter)
 
-app.listen(PORT,()=>{
-    console.log(`Server started on port ${PORT}`)
+app.listen(env.port,()=>{
+    console.log(`Server started on PORT: ${env.port}`)
+
 })
 
