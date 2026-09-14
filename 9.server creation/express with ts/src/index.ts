@@ -11,6 +11,7 @@ app.use("/api/products",productRouter)
 
 app.listen(env.port,()=>{
     console.log(`Server started on PORT: ${env.port}`)
+    
 
 })
 
