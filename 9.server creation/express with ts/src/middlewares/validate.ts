@@ -10,7 +10,7 @@ export const validateSchema = (schema:z.ZodType) =>{
 
         const result = schema.safeParse(req.body);
         if(!result.success){
-            res.status(400).json(
+            return res.status(400).json(
                 {
                     success:false,
                     errors : result.error.issues

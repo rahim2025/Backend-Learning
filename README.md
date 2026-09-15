@@ -114,6 +114,14 @@ Notes:
 - [TypeScript Interview Questions](typescript/16-interview-questions/interview-questions.md)
 - [TypeScript Cheat Sheet](typescript/17-cheat-sheet/README.md)
 
+### Error Handling (Express)
+
+Error handling is what happens after bad data or a failing dependency slips past validation. This topic covers the difference between operational and programmer errors, Express's 4-argument error-handling middleware, catching async errors that Express doesn't catch automatically, custom error classes, and process-level safety nets like `uncaughtException` and graceful shutdown.
+
+Notes:
+
+- [Error Handling in Express](11.Error%20Handling/Readme.md)
+
 ## Why I Am Building This
 
 I am using this repository to prepare for backend software engineering interviews and to improve my practical JavaScript backend skills.
