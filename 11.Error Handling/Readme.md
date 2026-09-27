@@ -3,7 +3,7 @@
 Validation (previous topic) stops bad data from entering your system.
 Error handling is what happens **after something still goes wrong** — bad data slipped through, a DB call failed, a third-party API timed out, or your own code threw a bug. A backend that can't fail predictably isn't production-ready, no matter how clean the happy path looks.
 
-Good engineers don't think of error handling as "wrap it in try/catch." They think about it as a **system**: every error, from anywhere in the app, must end up in exactly one place, in a predictable shape, logged correctly, without crashing the process or leaking internals.
+Good engineers don't think of error handling as "wrap it in try/catch." They think about it as a **system**: every error, from anywhere in the app, must end up in exactly one place, in a predictable shape, logged correctly(Had seperate lessons), without crashing the process or leaking internals.
 
 ## Two categories of errors — this distinction drives every decision
 
