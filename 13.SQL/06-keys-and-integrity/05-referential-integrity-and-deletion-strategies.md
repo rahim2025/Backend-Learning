@@ -35,7 +35,7 @@ CREATE TABLE orders (
 ### 2. `CASCADE`
 - Automatically deletes (or updates) all child rows when the parent row is deleted/updated.
 - Use when: child data has no meaning without the parent (e.g. deleting a `blog_post` should delete its `comments`).
-- ⚠️ Dangerous for important historical data — can wipe out records you may need later (see [[03-historical-data-preservation]]).
+- ⚠️ Dangerous for important historical data — can wipe out records you may need later (see [[06-historical-data-preservation]]).
 
 ### 3. `SET NULL`
 - Sets the FK column to `NULL` in child rows when the parent is deleted.
@@ -56,7 +56,7 @@ CREATE TABLE orders (
 | Deleting a parent should wipe dependent child data | `CASCADE` |
 | Parent shouldn't be deletable while children exist | `RESTRICT` / `NO ACTION` |
 | Child record is still meaningful without the parent | `SET NULL` |
-| You need to preserve history/audit trail | Avoid hard delete entirely — use **soft deletes** instead (see [[03-historical-data-preservation]]) |
+| You need to preserve history/audit trail | Avoid hard delete entirely — use **soft deletes** instead (see [[06-historical-data-preservation]]) |
 
 ## Practical tip
 In real-world systems (especially e-commerce, finance, auditing), hard `CASCADE` deletes are often avoided in favor of **soft deletes** to preserve historical/financial records — see the next note.

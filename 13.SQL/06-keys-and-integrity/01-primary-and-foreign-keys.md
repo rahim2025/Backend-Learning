@@ -56,4 +56,4 @@ CREATE TABLE orders (
 | Nullability | Cannot be NULL | Can be NULL (optional relationship) unless constrained |
 | Count per table | One PK (possibly composite) | Can have multiple FKs |
 
-See also: [[02-referential-integrity-and-deletion-strategies]]
+See also: [[02-constraints-and-data-integrity]], [[03-surrogate-and-composite-keys]], [[05-referential-integrity-and-deletion-strategies]]

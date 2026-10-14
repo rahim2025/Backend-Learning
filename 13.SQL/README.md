@@ -1,13 +1,24 @@
 # SQL Notes
 
-Index of topics covered in this folder.
+## Phase 1 topics
 
 1. [SQL vs MySQL](./01-sql-vs-mysql.md)
 2. [Relational Databases vs MongoDB](./02-relational-vs-mongodb.md)
-3. Keys & Integrity
-   - [Primary & Foreign Keys](./keys-and-integrity/01-primary-and-foreign-keys.md)
-   - [Referential Integrity & FK Deletion Strategies](./keys-and-integrity/02-referential-integrity-and-deletion-strategies.md)
-   - [Historical Data Preservation](./keys-and-integrity/03-historical-data-preservation.md)
-4. Querying Basics
-   - [Basic SQL Querying (SELECT/INSERT/UPDATE/DELETE/JOIN/GROUP BY)](./querying-basics/01-basic-querying.md)
-   - [Filtering, Sorting, and Pagination](./querying-basics/02-filtering-sorting-pagination.md)
+3. [Tables, Rows, Columns, and Schemas](./03-tables-rows-columns-schemas.md)
+4. [Common Data Types](./04-common-data-types.md)
+5. [NULL and Three-Valued Logic](./05-null-and-three-valued-logic.md)
+6. Keys, Constraints & Integrity — [06-keys-and-integrity/](./06-keys-and-integrity/)
+   1. [Primary & Foreign Keys](./06-keys-and-integrity/01-primary-and-foreign-keys.md)
+   2. [Constraints and Data Integrity](./06-keys-and-integrity/02-constraints-and-data-integrity.md)
+   3. [Surrogate and Composite Keys](./06-keys-and-integrity/03-surrogate-and-composite-keys.md)
+   4. [AUTO_INCREMENT](./06-keys-and-integrity/04-auto-increment.md)
+   5. [Referential Integrity & FK Deletion Strategies](./06-keys-and-integrity/05-referential-integrity-and-deletion-strategies.md)
+   6. [Historical Data Preservation](./06-keys-and-integrity/06-historical-data-preservation.md)
+7. [Basic Index Intuition](./07-basic-index-intuition.md)
+8. [How MySQL Processes Requests (High-Level)](./08-how-mysql-processes-requests.md)
+
+## Extra: Querying Basics — [09-querying-basics/](./09-querying-basics/)
+
+9. Querying Basics
+   1. [Basic SQL Querying (SELECT/INSERT/UPDATE/DELETE/JOIN/GROUP BY)](./09-querying-basics/01-basic-querying.md)
+   2. [Filtering, Sorting, and Pagination](./09-querying-basics/02-filtering-sorting-pagination.md)
