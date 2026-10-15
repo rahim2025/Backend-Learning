@@ -1,0 +1,17 @@
+# Phase 3 — Relationships and Joins
+
+1. [Relationship Types (1:1, 1:N, M:N)](./01-relationship-types.md)
+2. [Junction Tables](./02-junction-tables.md)
+3. [INNER JOIN](./03-inner-join.md)
+4. [LEFT JOIN](./04-left-join.md)
+5. [Anti-Join Pattern](./05-anti-join-pattern.md)
+6. [Multi-Table Joins](./06-multi-table-joins.md)
+7. [Calculated Values in Joined Queries](./07-calculated-values-in-joins.md)
+8. [LEFT JOIN: Conditions in ON vs WHERE](./08-left-join-on-vs-where.md)
+9. [Many-to-Many Joins — Traversing a Junction Table](./09-many-to-many-joins-traversal.md)
+10. [Self Joins](./10-self-joins.md)
+11. [RIGHT JOIN](./11-right-join.md)
+12. [FULL OUTER JOIN](./12-full-outer-join.md)
+13. [Join Mistakes and Debugging](./13-join-mistakes-and-debugging.md)
+14. [Row Multiplication](./14-row-multiplication.md)
+15. [Aggregation Problems After Joins](./15-aggregation-problems-after-joins.md)
